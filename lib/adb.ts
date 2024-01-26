@@ -9,7 +9,7 @@ import type { LRUCache } from 'lru-cache';
 
 const DEFAULT_ADB_PORT = 5037;
 export const DEFAULT_OPTS = {
-  sdkRoot: getSdkRootFromEnv(),
+  sdkRoot: '',
   executable: {path: 'adb', defaultArgs: []},
   tmpDir: os.tmpdir(),
   binaries: {},
